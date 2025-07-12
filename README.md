@@ -107,3 +107,28 @@ Hello, Dr.joshika
 
 
 
+total=0
+def add_subject_marks():
+    global total
+    marks=int(input("Enter marks of a subject:"))
+    total+=marks
+    return marks
+print("subject1 marks:",add_subject_marks())
+print("subject2 marks:",add_subject_marks())
+print("subject3 marks:",add_subject_marks())
+print("Total marks stored in global:",total)
+
+
+=======OUTPUT==========
+Enter marks of a subject: 45
+subject1 marks: 45
+Enter marks of a subject: 78
+subject2 marks: 78
+Enter marks of a subject: 35
+subject3 marks: 35
+Total marks stored in global: 158
+
+
+
+
+
