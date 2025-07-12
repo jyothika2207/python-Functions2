@@ -91,4 +91,19 @@ Enter the number of terms:  7
 
 
 
+def titled(title):
+    def greet(name):
+        return f"Hello, {title}{name}"
+    return greet
+mr_greet=titled("Mr.")
+dr_greet=titled("Dr.")
+print(mr_greet("Jyothika"))
+print(dr_greet("joshika"))
+
+=======OUTPUT=========
+Hello, Mr.Jyothika
+Hello, Dr.joshika
+
+
+
 
